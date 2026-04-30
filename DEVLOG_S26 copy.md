@@ -5,14 +5,14 @@
 ---
 
 ### Entry 1
-**Date:**
-**Entry Type:** Edge Case / Engineering Decision / Bug Fix  
-**Task worked on:**
-**Issue or decision:**
-**Error message / symptom (if applicable):**
-**What I tried:**  
+**Date:** 04/29/2026
+**Entry Type:** Edge Case / Engineering Decision  
+**Task worked on:** I began implementation of the DFS traversal logic. 
+**Issue or decision:** I copied over the arguments and structure for the dfs method. 
+**Error message / symptom (if applicable):** Nothing so far, just the basic setup.
+**What I tried:** 
 **Fix / resolution (or final decision):**  
-**Commit(s):**
+**Commit(s):** I began the implementation for the dfs argument. 
 
 ---
 
