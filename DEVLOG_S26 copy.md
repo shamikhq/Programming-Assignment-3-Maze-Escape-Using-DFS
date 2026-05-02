@@ -17,14 +17,14 @@
 ---
 
 ### Entry 2
-**Date:** 
-**Entry Type:** Edge Case / Engineering Decision / Bug Fix  
-**Task worked on:** 
-**Issue or decision:** 
-**Error message / symptom (if applicable):** 
-**What I tried:**  
+**Date:** 05/01/2026
+**Entry Type:** Engineering Decision  
+**Task worked on:** Implementation of the DFS traversal logic
+**Issue or decision:** I decided what the base cases and recursion cases would be and what I need to set each time. 
+**Error message / symptom (if applicable):** None
+**What I tried:**  I will test next time. 
 **Fix / resolution (or final decision):**  
-**Commit(s):** 
+**Commit(s):** I continued implementation of the DFS traversal logic.
 
 ---
 

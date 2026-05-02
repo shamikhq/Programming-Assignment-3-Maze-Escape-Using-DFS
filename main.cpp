@@ -87,10 +87,7 @@ void printMaze(const vector<vector<int>>& maze,
 // DO NOT MODIFY: Print the reconstructed path
 // Students must fill parent[][] correctly during DFS
 // ----------------------------------------------------------
-void printPath(pair<int,int> exitcell,
-               const vector<vector<int>>& parent_r,
-               const vector<vector<int>>& parent_c,
-               int ent_r, int ent_c)
+void printPath(pair<int,int> exitcell, const vector<vector<int>>& parent_r, const vector<vector<int>>& parent_c, int ent_r, int ent_c)
 {
     int r = exitcell.first;
     int c = exitcell.second;
@@ -118,7 +115,16 @@ void printPath(pair<int,int> exitcell,
 // Add arguments, return type, and logic
 // ----------------------------------------------------------
 bool dfs(int r, int c, const vector<vector<int>>& maze, vector<vector<bool>>& visited, vector<vector<int>>& parent_r, vector<vector<int>>& parent_c, int exit_r, int exit_c){
-    if (r < maze.size() && c < maze[0].size()) {}
+    if (r < 0 || r >= maze.size() || c < 0 || c >= maze[0].size() || maze[r][c] == 1 || visited[r][c]) {
+        return false;
+    }
+    visited[r][c] = true;
+    if (r==exit_r && c==exit_c) {
+        return true;
+    }
+    for (int i = 0; i < 4; i++) {
+        bool temp = dfs()
+    }
 }
 
 
