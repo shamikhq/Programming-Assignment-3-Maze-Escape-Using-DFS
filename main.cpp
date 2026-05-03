@@ -123,7 +123,12 @@ bool dfs(int r, int c, const vector<vector<int>>& maze, vector<vector<bool>>& vi
         return true;
     }
     for (int i = 0; i < 4; i++) {
-        bool temp = dfs()
+        bool temp = dfs(r + dr[i], c + dc[i], maze, visited, parent_r, parent_c, exit_r, exit_c);
+        if (temp) {
+            parent_r[r+ dr[i]][c + dc[i]] = r;
+            parent_c[r+ dr[i]][c + dc[i]] = c;
+            return true;
+        }
     }
 }
 
@@ -171,11 +176,11 @@ int main() {
     // STUDENT WORK:
     // If found, print the path
     // ------------------------------------------------------
-    // if (found) {
-    //     printPath(exitcell, parent_r, parent_c, ent_r, ent_c);
-    // } else {
-    //     cout << "\nNo path exists.\n";
-    // }
+    if (found) {
+        printPath(exitcell, parent_r, parent_c, ent_r, ent_c);
+    } else {
+        cout << "\nNo path exists.\n";
+    }
 
     return 0;
 }

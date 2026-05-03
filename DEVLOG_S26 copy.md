@@ -29,14 +29,14 @@
 ---
 
 ### Entry 3
-**Date:**
-**Entry Type:** Edge Case / Engineering Decision / Bug Fix  
-**Task worked on:**
-**Issue or decision:**
-**Error message / symptom (if applicable):**
-**What I tried:**  
-**Fix / resolution (or final decision):**  
-**Commit(s):**
+**Date:** 03/03/2026
+**Entry Type:** Engineering Decision   
+**Task worked on:** Implementation of the DFS traversal logic
+**Issue or decision:** How to recurse
+**Error message / symptom (if applicable):** None so far
+**What I tried:** I used a for loop to go through each possible direction, then called the dfs method to check if the move is valid, and if not, then I just backtrack. 
+**Fix / resolution (or final decision):** 
+**Commit(s):** I finished implementation of dfs traversal. 
 
 ---
 
